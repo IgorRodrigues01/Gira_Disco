@@ -542,7 +542,7 @@ const contrastBtn = document.getElementById("contrastBtn");
 const underlineBtn = document.getElementById("underlineBtn");
 const resetAccessibility = document.getElementById("resetAccessibility");
 
-let fontSize = 100;
+let fontSize = 90;
 
 // Abrir e fechar painel
 accessibilityBtn.addEventListener("click", () => {
@@ -599,7 +599,7 @@ underlineBtn.addEventListener("click", () => {
 // Restaurar configurações
 resetAccessibility.addEventListener("click", () => {
 
-    fontSize = 100;
+    fontSize = 90;
 
     document.documentElement.style.fontSize = "";
 
